@@ -20,6 +20,24 @@ playwright install
 ```bash
 # Run the main crawling script
 python crawl_docs_sequential.py
+
+# Run the simple single-URL crawler
+python simple_crawl.py
+```
+
+### Code Quality and Linting
+```bash
+# Check code for issues (linting)
+ruff check .
+
+# Automatically fix issues where possible
+ruff check . --fix
+
+# Format code consistently
+ruff format .
+
+# Check and fix in one command
+ruff check . --fix && ruff format .
 ```
 
 ### Project Overview

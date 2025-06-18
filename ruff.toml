@@ -1,0 +1,47 @@
+# Global settings
+line-length = 100  # Allow slightly longer lines for string literals
+fix = true
+
+[lint]
+# Enable the following rule categories
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings  
+    "F",   # Pyflakes (including unused imports)
+    "I",   # isort (import sorting)
+    "N",   # pep8-naming
+    "UP",  # pyupgrade (modernize Python syntax)
+    "B",   # flake8-bugbear (likely bugs)
+    "S",   # flake8-bandit (security)
+    "C4",  # flake8-comprehensions
+    "T20", # flake8-print (no print statements in production)
+]
+
+# Ignore specific rules if needed
+ignore = [
+    "T20",  # Allow print statements for this project (logging/debugging)
+    "S101", # Allow assert statements
+]
+
+# Files to exclude from linting
+exclude = [
+    ".git",
+    ".venv", 
+    "venv",
+    "__pycache__",
+    "*.pyc",
+]
+
+# Allow longer lines for specific patterns (like long string literals)
+[lint.per-file-ignores]
+"*.py" = ["E501"]  # Ignore line length for string literals - auto-formatter handles this
+
+[format]
+# Use double quotes for strings
+quote-style = "double"
+
+# Indent with 4 spaces
+indent-style = "space"
+
+# Use trailing commas in multi-line structures
+skip-magic-trailing-comma = false

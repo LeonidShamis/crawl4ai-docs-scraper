@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "WebFetch(domain:docs.crawl4ai.com)",
+      "Bash(source:*)",
+      "Bash(ruff format:*)",
+      "Bash(ruff check:*)"
     ],
     "deny": []
   }
