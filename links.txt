@@ -1,0 +1,17 @@
+https://docs.hyperwallet.com/content/drop-in-uis/v2_4/overview
+https://docs.hyperwallet.com/content/drop-in-uis/v2_4/overview/authentication
+https://docs.hyperwallet.com/content/drop-in-uis/v2_4/overview/best-practices
+https://docs.hyperwallet.com/content/drop-in-uis/v2_4/overview/version-updates
+https://docs.hyperwallet.com/content/drop-in-uis/v2_4/transfer-method
+https://docs.hyperwallet.com/content/drop-in-uis/v2_4/transfer-method
+https://docs.hyperwallet.com/content/drop-in-uis/v2_4/transfer-method/setup
+https://docs.hyperwallet.com/content/drop-in-uis/v2_4/transfer-method/transfer-methods
+https://docs.hyperwallet.com/content/drop-in-uis/v2_4/transfer-method/event-handling
+https://docs.hyperwallet.com/content/drop-in-uis/v2_4/transfer-method/styling
+https://docs.hyperwallet.com/content/drop-in-uis/v2_4/payee-verification
+https://docs.hyperwallet.com/content/drop-in-uis/v2_4/payee-verification
+https://docs.hyperwallet.com/content/drop-in-uis/v2_4/payee-verification/setup
+https://docs.hyperwallet.com/content/drop-in-uis/v2_4/payee-verification/configuration-options
+https://docs.hyperwallet.com/content/drop-in-uis/v2_4/payee-verification/interacting-with-the-drop-in-ui
+https://docs.hyperwallet.com/content/drop-in-uis/v2_4/payee-verification/styling
+https://docs.hyperwallet.com/content/drop-in-uis/v2_4/payee-verification/webhook-notifications
